@@ -1,0 +1,95 @@
+
+
+
+
+.container-fluid {
+    display: flex;
+
+}
+
+img {
+    width: 75px;
+}
+
+.navbar {
+    background-color: rgb(214, 213, 209);
+    border-bottom: 2px solid rgb(106, 106, 106);
+   
+ 
+}
+
+.navbar {
+    /* position: fixed;
+    top: 0; */
+    /* z-index: 1; */
+}
+
+#welcome-section {
+    height: 100vh;
+    /* background-color: rgb(53, 44, 29) ; */
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(-60deg, #eeca52, #5b4367, #304e59, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	/* height: 100vh; */
+}
+
+.name {
+    font-size: 5rem;
+}
+
+#welcome-section > p {
+    font-size: 2.5rem;
+}
+
+
+/* .progress {
+    max-width: 350px;
+    margin: auto;
+}
+
+.progress-bar {
+    background-color: #2d1a1a;
+} */
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* bordes temporales */
+/* .projects-container {
+    border: 1px solid red;
+}
+
+.project-individual {
+    border: 1px solid blue;
+} */
+
+
+
+/* @if $enable-transitions {
+    @keyframes progress-bar-stripes {
+      0% { background-position-x: $progress-height; }
+    }
+  } */
+
+
+/* 
+  .projects::after {
+    content: "";
+    width: 25rem;
+  } */
